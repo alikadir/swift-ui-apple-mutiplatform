@@ -12,6 +12,9 @@ struct ContentView: View {
         Text("Hello, world!")
             .padding()
     }
+    func Deneme(ali:String) -> Int {
+        return 3
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

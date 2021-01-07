@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8490EE025A79409003B780E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EDF25A79409003B780E /* Car.swift */; };
+		C8490EE125A79409003B780E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EDF25A79409003B780E /* Car.swift */; };
+		C8490EEE25A7956C003B780E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EED25A7956C003B780E /* Vehicle.swift */; };
+		C8490EEF25A7956C003B780E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EED25A7956C003B780E /* Vehicle.swift */; };
+		C8490EF725A7A15D003B780E /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EF625A7A15D003B780E /* Implementation.swift */; };
+		C8490EF825A7A15D003B780E /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EF625A7A15D003B780E /* Implementation.swift */; };
+		C8490EFC25A7A584003B780E /* IControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EFB25A7A584003B780E /* IControl.swift */; };
+		C8490EFD25A7A584003B780E /* IControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8490EFB25A7A584003B780E /* IControl.swift */; };
 		C872C56D25A1F29600C41276 /* AppleMultiplatformSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872C55A25A1F29200C41276 /* AppleMultiplatformSwiftUIApp.swift */; };
 		C872C56E25A1F29600C41276 /* AppleMultiplatformSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872C55A25A1F29200C41276 /* AppleMultiplatformSwiftUIApp.swift */; };
 		C872C56F25A1F29600C41276 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872C55B25A1F29200C41276 /* ContentView.swift */; };
@@ -16,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8490EDF25A79409003B780E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C8490EED25A7956C003B780E /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		C8490EF625A7A15D003B780E /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
+		C8490EFB25A7A584003B780E /* IControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IControl.swift; sourceTree = "<group>"; };
 		C872C55A25A1F29200C41276 /* AppleMultiplatformSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMultiplatformSwiftUIApp.swift; sourceTree = "<group>"; };
 		C872C55B25A1F29200C41276 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C872C55C25A1F29600C41276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +56,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8490EDE25A793E5003B780E /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				C8490EDF25A79409003B780E /* Car.swift */,
+				C8490EED25A7956C003B780E /* Vehicle.swift */,
+				C8490EF625A7A15D003B780E /* Implementation.swift */,
+				C8490EFB25A7A584003B780E /* IControl.swift */,
+			);
+			path = OOP;
+			sourceTree = "<group>";
+		};
 		C872C55425A1F29100C41276 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +80,7 @@
 		C872C55925A1F29200C41276 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C8490EDE25A793E5003B780E /* OOP */,
 				C872C55A25A1F29200C41276 /* AppleMultiplatformSwiftUIApp.swift */,
 				C872C55B25A1F29200C41276 /* ContentView.swift */,
 				C872C55C25A1F29600C41276 /* Assets.xcassets */,
@@ -188,6 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C872C56F25A1F29600C41276 /* ContentView.swift in Sources */,
+				C8490EF725A7A15D003B780E /* Implementation.swift in Sources */,
+				C8490EFC25A7A584003B780E /* IControl.swift in Sources */,
+				C8490EE025A79409003B780E /* Car.swift in Sources */,
+				C8490EEE25A7956C003B780E /* Vehicle.swift in Sources */,
 				C872C56D25A1F29600C41276 /* AppleMultiplatformSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C872C57025A1F29600C41276 /* ContentView.swift in Sources */,
+				C8490EF825A7A15D003B780E /* Implementation.swift in Sources */,
+				C8490EFD25A7A584003B780E /* IControl.swift in Sources */,
+				C8490EE125A79409003B780E /* Car.swift in Sources */,
+				C8490EEF25A7956C003B780E /* Vehicle.swift in Sources */,
 				C872C56E25A1F29600C41276 /* AppleMultiplatformSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
