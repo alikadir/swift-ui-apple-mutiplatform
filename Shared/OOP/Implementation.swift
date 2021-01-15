@@ -21,3 +21,13 @@ func Implementation() {
     }
 }
 
+/*
+ Access Modifiers
+ 
+ - open
+ - public
+ - interval
+ - private
+ 
+ */
+

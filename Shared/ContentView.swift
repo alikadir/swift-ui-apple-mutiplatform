@@ -9,11 +9,44 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            
+            Text("Hello, world!")
+                .padding()
+            
+            Button("Click Me", action: {
+                print("clicked")
+            })
             .padding()
-    }
-    func Deneme(ali:String) -> Int {
-        return 3
+            
+            HStack {
+                
+                Image("square")
+                    .resizable()
+                    .frame(width: 40,
+                           height: 40,
+                           alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .padding()
+                
+                
+                Image("square")
+                    .resizable()
+                    .frame(width: 40,
+                           height: 40,
+                           alignment: .center)
+                    .padding()
+                
+                
+                Image("square")
+                    .resizable()
+                    .frame(width: 40,
+                           height: 40,
+                           alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .padding()
+            }
+            
+        }
+        
     }
 }
 
